@@ -22,9 +22,9 @@
 <body>
   <div class="container" role="main">
     <div class="holder">
-      <div class="chat-box">
+      <div class="chat-box" role="application">
         <!-- start header -->
-        <div class="header" role="banner">
+        <div class="header">
           <div class="box">
             <img src="images/avatar.jpg" alt="picture">
             <div class="info">
@@ -35,7 +35,7 @@
         </div>
         <!-- end header -->
         <!-- start messages -->
-        <div class="messages" role="main">
+        <div class="messages">
           <span>  That sounds great. I’d be happy with that.</span>
           <span>Could you send over some pictures of your dog, please?</span>
           <span class="customer">
@@ -50,11 +50,11 @@
           </span>
           <form action="#">
             <div class="offer">
-              <input role="radio" type="radio" name="offer" id="offer1"> 
+              <input type="radio" name="offer" id="offer1"> 
               <label for="offer1">30 minute walk <span class="price">$29</span></label>
             </div>
             <div class="offer">
-              <input role="radio" type="radio" name="offer" id="offer2">
+              <input type="radio" name="offer" id="offer2">
               <label for="offer2">1 hour walk <span class="price">$49</span></label>
             </div>
           </form>
@@ -63,14 +63,14 @@
         <!-- start chat footer -->
         <form class="footer" action="#">
           <textarea name="footer" placeholder="Type a message.."></textarea>
-          <button type="submit" role="button">
+          <button type="submit">
             <span>></span>
           </button>
         </form>
         <!-- end chat footer -->
       </div>
       <div class="text">
-        <h1 role="heading">Simple booking</h1>
+        <h1>Simple booking</h1>
         <p>
           Stay in touch with our dog walkers through the chat interface. This makes it easy to 
           discuss arrangements and make bookings. Once the walk has been completed you can rate 
