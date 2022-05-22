@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
   <!-- main style -->
-  <link rel="stylesheet" href="css/main style.css">
+  <link rel="stylesheet" href="css/main-style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -20,11 +20,11 @@
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="container" role="application">
     <div class="holder">
       <div class="chat-box">
         <!-- start header -->
-        <div class="header">
+        <div class="header" role="banner">
           <div class="box">
             <img src="images/avatar.jpg" alt="picture">
             <div class="info">
@@ -35,7 +35,7 @@
         </div>
         <!-- end header -->
         <!-- start messages -->
-        <div class="messages">
+        <div class="messages" role="main">
           <span>  That sounds great. I’d be happy with that.</span>
           <span>Could you send over some pictures of your dog, please?</span>
           <span class="customer">
@@ -51,7 +51,7 @@
           <form action="#">
             <div class="offer">
               <input type="radio" name="offer" id="offer1"> 
-              <label label for="offer1">30 minute walk <span class="price">$29</span></label>
+              <label for="offer1">30 minute walk <span class="price">$29</span></label>
             </div>
             <div class="offer">
               <input type="radio" name="offer" id="offer2">
@@ -63,14 +63,14 @@
         <!-- start chat footer -->
         <form class="footer" action="#">
           <textarea name="footer" placeholder="Type a message.."></textarea>
-          <button type="submit">
+          <button type="submit" role="button">
             <span>></span>
           </button>
         </form>
         <!-- end chat footer -->
       </div>
       <div class="text">
-        <h1>Simple booking</h1>
+        <h1 role="heading">Simple booking</h1>
         <p>
           Stay in touch with our dog walkers through the chat interface. This makes it easy to 
           discuss arrangements and make bookings. Once the walk has been completed you can rate 
